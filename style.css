@@ -1,0 +1,135 @@
+#nav-brand, h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, h2 {
+    font-family: "Manrope", sans-serif;
+}
+
+#hero-section {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    margin-top: 123px;
+    padding-left: 108px;
+    padding-right: 167px;
+
+    @media screen and (max-width:768px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    @media screen and (max-width:1025px) {
+        flex-direction: column;
+        gap: 80px;
+        margin-top: 40px;
+    }
+}
+
+#project-section {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 108px;
+
+    @media screen and (max-width:768px) {
+        padding:60px 16px;
+    }
+}
+
+.project {
+    display: flex;
+    gap: 48px;
+
+    @media screen and (max-width:1025px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+#about-section {
+    display: flex;
+    justify-content: center;
+    gap: 213px;
+    padding: 120px 108px;
+
+    @media screen and (max-width:768px) {
+        padding:60px 16px;
+    }
+
+    @media screen and (max-width:1025px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+#contact-section {
+    /* display: flex;
+    justify-content: center;
+    gap: 24px; */
+    padding: 80px 108px;
+
+    @media screen and (max-width:768px) {
+        padding: 16px;
+    }
+
+    /* @media screen and (max-width:1025px) {
+        flex-direction: column;
+        gap: 40px;
+    } */
+
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 213px;
+    padding: 120px 108px;
+
+    @media screen and (max-width:768px) {
+        padding:60px 16px;
+    }
+
+    @media screen and (max-width:1025px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
+
+#capabilities {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 120px 108px;
+
+    @media screen and (max-width:768px) {
+        padding:60px 16px;
+    }
+
+    @media screen and (max-width:1025px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
+
+#experience {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 120px 108px;
+
+    @media screen and (max-width:768px) {
+        padding:60px 16px;
+    }
+
+    @media screen and (max-width:1025px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
